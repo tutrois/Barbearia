@@ -36,15 +36,6 @@ nav a:hover{
     text-decoration:underline;
 }
 
-/* .cardsProduto{
-    border: 1px solid black;
-    display: inline-block;
-    margin: 0 0 0 20px;
-    text-align: center;
-    width: 250px;
-    height: 350px;
-} */
-
 .produtos{
     width: 940px;
     margin: 0 auto;
@@ -59,7 +50,11 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: gold;
 }
 
 .produtos h2{
