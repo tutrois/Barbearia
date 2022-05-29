@@ -46,3 +46,19 @@ form textarea{
     cursor: pointer;
     transform: scale(1.1);
 }
+
+table{
+    margin: 20px 0 40px;
+}
+
+table thead{
+    font-weight: bold;
+    background: gray;
+    color: white;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
